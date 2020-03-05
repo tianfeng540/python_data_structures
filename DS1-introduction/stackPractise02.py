@@ -27,7 +27,7 @@ from pythonds.basic.stack import Stack
 
 def divideBase(desNumber,base):
     digits = '0123456789ABCDEF'
-    s = Stack()
+    s = Stack() 
 
     while desNumber > 0:
         rem = desNumber % base
