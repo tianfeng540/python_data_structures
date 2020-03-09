@@ -62,7 +62,7 @@ from pythonds.basic.stack import Stack
 rStack = Stack()
 
 def toStr(n,base):
-    convertString = '0123456789ABCDEF'
+    convertString = '0123456789ABCDEFG'
 
     while n > 0:
         if n < base:
